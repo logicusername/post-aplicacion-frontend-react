@@ -4,7 +4,8 @@ import { PostContext } from "../context/PostContext";
 export function PostCard() {
   const { data } = useContext(PostContext);
 
-  if (data === 0) {
+  if (data.length === 0) 
+  {
     return <h1>cargando datos</h1>;
   } else {
     return (
