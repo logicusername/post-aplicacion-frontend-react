@@ -2,55 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #1d1d1b;
-    color: #e4e4e3;
+body {
+  background-color: #1d1d1b;
+  color: #e4e4e3;
 }
 
-.post-form{
-    background-color: #292927;
-    width: 810px;
-    height: 300px;
+.post-form {
+  background-color: #292927;
+  width: 810px;
+  height: 300px;
 }
-.post-input{
-    background-color: #393936;
-    color: #e4e4e3;
-    font-size: 1rem;
-    font-weight: 400;
-    align-items: center;
+.post-input {
+  background-color: #393936;
+  color: #e4e4e3;
+  font-size: 1rem;
+  font-weight: 400;
+  align-items: center;
 }
-.txt-input{
-    margin-left: 70px;
-    margin-top: 20px;
-    width: 720px;
-    height: 200px;
+.txt-input {
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 720px;
+  height: 200px;
 }
-.componentes{
-    margin-top: 15vh;
-    margin-left: 25rem;
+.componentes {
+  margin-top: 15vh;
 }
-.componente-iconos{
-    width: 265px;
-    border: 1px solid wheat;
-    border-radius: 60px;
-    margin-left: 70px;
-    margin-top: 15px;
+.componente-iconos {
+  width: 265px;
+  border: 1px solid wheat;
+  border-radius: 60px;
+  margin-left: 70px;
+  margin-top: 15px;
 }
-.botonpostear{
-    margin-left: 372px;
-    margin-top: 20px;
-    width: 80px;
-    height: 40px;
-    border-radius: 60px;
-    color: #1d1d1b;
+.botonpostear {
+  margin-left: 372px;
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  border-radius: 60px;
+  color: #1d1d1b;
 }
-.postboximage{
-    background-color: #292927;
-    width: 810px;
-    height: 600px;
-    border-radius: 15px;
+.postboximage {
+  background-color: #292927;
+  width: 810px;
+  height: 600px;
+  border-radius: 15px;
 }
-.imagenes{
-    width: 700px;
+.imagenes {
+  width: 700px;
+  height: 500px;
+}
+@media (max-width: 888px) {
+  .imagenes {
+    width: 650px;
     height: 500px;
+  }
+  .post-form {
+    width: 750px;
+  }
+  .post-input {
+    width: 665px;
+  }
+  .botonpostear {
+    margin-left: 320px;
+  }
+  .postboximage {
+    width: 745px;
+  }
 }
+@media (max-width: 783px) {
+  .imagenes {
+    width: 550px;
+    height: 500px;
+  }
+  .post-form {
+    width: 650px;
+  }
+  .post-input {
+    width: 545px;
+  }
+  .botonpostear {
+    margin-left: 200px;
+  }
+  .postboximage {
+    width: 645px;
+  }
+  .interacciones {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 783px) {
+    .imagenes {
+      width: 550px;
+      height: 500px;
+    }
+    .post-form {
+      width: 650px;
+    }
+    .post-input {
+      width: 545px;
+    }
+    .botonpostear {
+      margin-left: 200px;
+    }
+    .postboximage {
+      width: 645px;
+    }
+    .interacciones {
+      margin-left: 120px;
+    }
+  }
+  

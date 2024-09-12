@@ -19,9 +19,9 @@ export function PostCard() {
                 <hr className="ms-5 me-5"/>
               </div>
               <div className=" flex mt-4">
-                <p className="ms-16">likes</p>
-                <p className="ms-60">comments</p>
-                <p className="ms-60">shares</p>
+                <p className="ms-16 interacciones">likes</p>
+                <p className="ms-60 interacciones">comments</p>
+                <p className="ms-60 interacciones">shares</p>
               </div>
             </div>
           );

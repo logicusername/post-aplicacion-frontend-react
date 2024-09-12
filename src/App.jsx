@@ -3,7 +3,7 @@ import { PostList } from "./components/PostList";
 
 export function App() {
   return(
-    <div className="componentes">
+    <div className=" grid place-content-center componentes">
       <PostForm/>
       <PostList/>
     </div>
